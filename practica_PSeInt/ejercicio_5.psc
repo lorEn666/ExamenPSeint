@@ -1,5 +1,5 @@
-//Faltan ";" en las líneas 7 y 27
-
+//Faltan ";" en las líneas 10 y 30
+//Línea 12 sobra "SiNo"
 
 SubProceso escribirEspaciado(txt,solucion,resultadoFinal)
 	
@@ -7,10 +7,7 @@ SubProceso escribirEspaciado(txt,solucion,resultadoFinal)
 		
 		Si Subcadena(txt,i,i) != " " Entonces
 			
-			solucion = solucion + Subcadena(txt,i,i)
-			
-		SiNo
-			
+			solucion = solucion + Subcadena(txt,i,i);
 			
 		FinSi
 		
@@ -27,7 +24,7 @@ SubProceso escribirEspaciado(txt,solucion,resultadoFinal)
 	Fin Para
 	
 	Limpiar Pantalla;	
-	Escribir resultadoFinal
+	Escribir resultadoFinal;
 	
 FinSubProceso
 
