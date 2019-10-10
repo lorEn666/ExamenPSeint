@@ -1,3 +1,6 @@
+//Faltan ";" en las líneas 7 y 27
+
+
 SubProceso escribirEspaciado(txt,solucion,resultadoFinal)
 	
 	Para i <- 1 Hasta Longitud(txt) Con Paso 1 Hacer
